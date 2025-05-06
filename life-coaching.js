@@ -18,11 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Open first FAQ item by default
-    if (faqItems.length > 0) {
-        faqItems[0].classList.add('active');
-    }
-    
     // Package card hover effect
     const packageCards = document.querySelectorAll('.package-card');
     
