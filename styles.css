@@ -582,7 +582,7 @@ header .container {
 .hero {
     height: 100vh;
     min-height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/hero-bg.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('bilder/zeit-fuer-mich-anita-sophia-maly.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
