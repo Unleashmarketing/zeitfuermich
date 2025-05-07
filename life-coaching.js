@@ -18,6 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
+    // Remove any active classes from FAQ items on page load
+    faqItems.forEach(item => {
+        item.classList.remove('active');
+    });
+    
     // Package card hover effect
     const packageCards = document.querySelectorAll('.package-card');
     
